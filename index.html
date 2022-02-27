@@ -25,7 +25,7 @@
 <h3>Click on the above button to convert the above image to blob</h3>
 <script>
    let BtnEle = document.querySelector(".Btn");
-   let resEle = gdocument.querySelector(".result");
+   let resEle = document.querySelector(".result");
    BtnEle.addEventListener("click", () => {
       fetch("https://picsum.photos/id/222/300/300.jpg")
       .then(function (response) {
