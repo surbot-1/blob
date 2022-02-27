@@ -27,7 +27,7 @@
    let BtnEle = document.querySelector(".Btn");
    let resEle = gdocument.querySelector(".result");
    BtnEle.addEventListener("click", () => {
-      fetch("https://i.picsum.photos/id/222/300/300.jpg")
+      fetch("https://picsum.photos/id/222/300/300.jpg")
       .then(function (response) {
          return response.blob();
       })
